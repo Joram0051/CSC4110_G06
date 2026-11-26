@@ -5,9 +5,9 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-ROOT = Path(__file__).resolve().parent.parent  # project folder (works locally and on Streamlit Cloud)
-MODEL_PATH = ROOT / "models" / "G06_model.joblib"
-INFO_PATH = ROOT / "models" / "G06_model_info.json"
+ROOT = Path(__file__).resolve().parent  # app.py and the model files are in the repo root
+MODEL_PATH = ROOT / "G06_model.joblib"
+INFO_PATH = ROOT / "G06_model_info.json"
 
 st.set_page_config(page_title="Air fare estimator", page_icon=":airplane:")
 st.title("Safari Fare Desk: air fare estimator")
