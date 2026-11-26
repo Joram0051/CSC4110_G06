@@ -1,5 +1,3 @@
-# Task 9.1 as one PyCharm script: save the model, write the Streamlit app, test it
-# Install once in the PyCharm terminal:  pip install streamlit scikit-learn joblib pandas
 import os
 RS = 42  # random_state used everywhere
 PROJECT = r"C:\users\joram\OneDrive\Desktop\CSC4110_G06"
