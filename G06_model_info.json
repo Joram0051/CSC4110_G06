@@ -1,0 +1,53 @@
+{
+  "model_name": "Random forest",
+  "test_rmse": 3825.718844537547,
+  "test_mae": 2156.136661635717,
+  "test_r2": 0.97172427889541,
+  "trained_on": "Kaggle Flight Price Prediction (Clean_Dataset.csv, 20,000-row sample)",
+  "trained_date": "2026-11-23",
+  "n_train": 16000,
+  "n_test": 4000,
+  "choices": {
+    "airline": [
+      "AirAsia",
+      "Air_India",
+      "GO_FIRST",
+      "Indigo",
+      "SpiceJet",
+      "Vistara"
+    ],
+    "source_city": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai"
+    ],
+    "destination_city": [
+      "Bangalore",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Kolkata",
+      "Mumbai"
+    ],
+    "class": [
+      "Business",
+      "Economy"
+    ],
+    "stops": [
+      "zero",
+      "one",
+      "two_or_more"
+    ],
+    "departure_time": [
+      "Early_Morning",
+      "Morning",
+      "Afternoon",
+      "Evening",
+      "Night",
+      "Late_Night"
+    ]
+  }
+}
